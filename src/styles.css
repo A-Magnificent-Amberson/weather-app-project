@@ -1,0 +1,92 @@
+body {
+  background: linear-gradient(
+    360deg,
+    rgb(209, 255, 206) 0%,
+    rgb(227, 255, 231) 36%,
+    rgb(238, 245, 239) 77%,
+    rgb(253, 253, 253) 100%
+  );
+}
+
+footer {
+  font-family: "Raleway", sans-serif;
+}
+
+.search {
+  padding: 10px;
+  color: red;
+}
+
+.main-cities {
+  color: #f8b400;
+  font-weight: 20px;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 10px;
+  font-family: "Raleway", sans-serif;
+}
+
+.main-cities:hover {
+  cursor: pointer;
+}
+
+.forcast {
+  color: #004445;
+  text-align: center;
+  padding-top: 10px;
+  margin: 20px;
+  border: 3px;
+  border-style: double;
+  border-color: #cbf078;
+  border-radius: 10px;
+  background-color: rgb(243, 253, 241);
+}
+
+.current-weather-location {
+  color: #004445;
+  text-align: right;
+  padding: 20px;
+}
+
+.current-weather {
+  text-align: center;
+  padding: 10px 0;
+  color: #004445;
+}
+
+.current-day-emoji {
+  font-size: 55px;
+}
+
+.emoji-size {
+  font-size: 25px;
+}
+
+.city-searched {
+  font-family: "Raleway", sans-serif;
+}
+
+.weather-details {
+  color: gray;
+  text-align: left;
+  padding: 1px 0;
+  margin: 40px 0;
+  line-height: 1px;
+}
+
+.current-weather-button {
+  background-color: #2c786c;
+  color: #faf5e4;
+  padding: 1px 10px;
+  margin: 0 20px;
+  display: block;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  transition: all zooms ease-in-out;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}

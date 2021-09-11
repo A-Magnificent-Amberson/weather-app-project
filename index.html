@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>TEST Weather App Project</title>
+    <link rel="stylesheet" href="src/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row search">
+        <form id="search-form">
+          <input
+            type="search"
+            placeholder="Search"
+            autofocus
+            spellcheck="true"
+            id="magnified"
+          />
+          <input type="submit" value="🔎" />
+        </form>
+        <button class="current-weather-button" id="current-weather">
+          Current
+        </button>
+      </div>
+
+      <div class="row">
+        <div class="col-3 main-cities">Phoenix</div>
+        <div class="col-3 main-cities">Paris</div>
+        <div class="col-3 main-cities">New York</div>
+        <div class="col-3 main-cities">Rome</div>
+      </div>
+
+      <div class="row">
+        <div class="col-4 current-weather-location">
+          <h2 id="city-searched"></h2>
+          <h4 id="time">Friday 8/12 3:20 pm</h4>
+          <h3 id="temperature">°F</h3>
+        </div>
+        <div class="col-4 current-weather">
+          <h1 class="current-day-emoji">☀️</h1>
+          <h3 id="description">Sunny</h3>
+        </div>
+        <div class="col-4">
+          <p class="weather-details" id="humidity">humidity</p>
+          <p class="weather-details" id="wind">wind speed</p>
+        </div>
+      </div>
+
+      <div class="row forcast">
+        <div class="col-2">
+          <p>SAT</p>
+          <p class="emoji-size">☀️</p>
+          <p>105°F</p>
+        </div>
+        <div class="col-2">
+          <p>SUN</p>
+          <p class="emoji-size">☀️</p>
+          <p>108°F</p>
+        </div>
+        <div class="col-2">
+          <p>MON</p>
+          <p class="emoji-size">☁️</p>
+          <p>100°F</p>
+        </div>
+        <div class="col-2">
+          <p>TUE</p>
+          <p class="emoji-size">☀️</p>
+          <p>107°F</p>
+        </div>
+        <div class="col-2">
+          <p>WED</p>
+          <p class="emoji-size">☀️</p>
+          <p>108°F</p>
+        </div>
+        <div class="col-2">
+          <p>THUR</p>
+          <p class="emoji-size">☀️</p>
+          <p>110°F</p>
+        </div>
+      </div>
+      <footer><a href="#">Open Source Code</a> by Kaity 🌵</footer>
+    </div>
+    <script src="src/script.js"></script>
+  </body>
+</html>
